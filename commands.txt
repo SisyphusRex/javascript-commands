@@ -1,6 +1,24 @@
 JavaScript runs on client's browser
+Document Object Model (DOM) manipulation
 
 In html:
   <script>
     alert('Hello, world!');
   </script>
+
+Functions
+  function hello(<args>) {
+    alert('Hello, world!');
+  }
+
+Function runs on button click:
+  <button onclick="hello()">Click Here</button>
+
+Define a variable:
+  let <varname> = 0;
+
+Manipulate html element:
+  document.querySelector('<element_name>')
+    returns first element matching name
+  change element contents
+    document.querySelector('h1').innerHTML = 'Goodbye!';
