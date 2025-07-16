@@ -1,0 +1,7 @@
+===
+  Strict equality
+  same value and same data type
+
+== 
+  Loose equality
+  may type cast and compare value
