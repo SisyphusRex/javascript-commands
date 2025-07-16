@@ -16,6 +16,7 @@ Function runs on button click:
 
 Define a variable:
   let <varname> = 0;
+  const <constant_name> = 1;
 
 Manipulate html element:
   document.querySelector('<element_name>')
