@@ -1,0 +1,6 @@
+JavaScript runs on client's browser
+
+In html:
+  <script>
+    alert('Hello, world!');
+  </script>
