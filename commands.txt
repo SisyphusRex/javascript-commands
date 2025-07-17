@@ -23,6 +23,8 @@ Manipulate html element:
     returns first element matching name
   change element contents
     document.querySelector('h1').innerHTML = 'Goodbye!';
+  change style
+    ('h1').style.color = 'red';
 
 Format String (similar to python f".....{var}..."
   `Count is now ${counter}`
