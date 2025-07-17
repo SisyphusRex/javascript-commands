@@ -26,3 +26,7 @@ Manipulate html element:
 
 Format String (similar to python f".....{var}..."
   `Count is now ${counter}`
+
+Treat function as value (not just return value):
+  document.querySelector('button').onclick = func;
+    this is rather than func() which will get the return value
