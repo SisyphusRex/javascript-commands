@@ -54,3 +54,12 @@ Move javascript to its on file:
 
 Give HTML element data:
   <button data-color="red">Red</button>
+
+Arrow Notation:
+  button => {}
+    IS EQUIVALENT TO
+  function(button) {}
+  OR
+  () => {}
+    IS EQUIVALENT TO
+  function() {}
