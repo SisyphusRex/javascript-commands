@@ -9,3 +9,10 @@ document.querySelector('#<id>')
 
 // look for class
 document.querySelector('.<class>')
+
+// Prevent null being returned (script running before html loaded)
+// nest inside event listener
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('button').onclick = count;
+})
+                          
