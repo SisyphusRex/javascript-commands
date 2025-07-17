@@ -51,3 +51,6 @@ If document.querySelector returns null:
 
 Move javascript to its on file:
   <script src="counter.js"></script>
+
+Give HTML element data:
+  <button data-color="red">Red</button>
