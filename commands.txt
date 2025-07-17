@@ -31,3 +31,18 @@ FUNCTIONAL PROGRAMMING:
 Treat function as value (not just return value):
   document.querySelector('button').onclick = func;
     this is rather than func() which will get the return value
+
+Javascript console:
+  right click on page
+  inspect
+  console
+
+If document.querySelector returns null:
+  1. move script below body/ element sought
+  OR
+  2. add event listener
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelector('button').onclick = count;
+    })
+    ALTERNATIVELY
+      .onclick = count; Equivalent To .addEventListener('click', count);
