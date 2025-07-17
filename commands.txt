@@ -46,3 +46,6 @@ If document.querySelector returns null:
     })
     ALTERNATIVELY
       .onclick = count; Equivalent To .addEventListener('click', count);
+
+Move javascript to its on file:
+  <script src="counter.js"></script>
