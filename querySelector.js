@@ -17,4 +17,5 @@ document.addEventListener('DOMContentLoaded', function() {
 })
                           
 //get array of elements that match query
-document.querySelectorAll
+// returns a nodelist
+document.querySelectorAll('button')
