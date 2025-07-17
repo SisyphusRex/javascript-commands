@@ -16,3 +16,5 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('button').onclick = count;
 })
                           
+//get array of elements that match query
+document.querySelectorAll
