@@ -4,7 +4,7 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('select').onchange = () => {
-          document.querySelector('#hello').style.color = this.value;  // this is an object that for onchange is the thing being changed
+          document.querySelector('#hello').style.color = this.value;  // this refers to thing that received event, select in this case
         }
         
       })
